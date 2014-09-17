@@ -14,7 +14,7 @@
 
           <div class="like">
             <%= link_to like_path(id: picture.id), method: :post do %>
-              <div class="like-btn text-center">
+              <div id="click-me" class="like-btn text-center">
               <% if liked?(picture) %>
                 <span class="glyphicon glyphicon-heart red-heart"></span>
               <% else %>
