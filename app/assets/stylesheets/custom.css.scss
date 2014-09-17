@@ -25,6 +25,10 @@ footer h4 {
   font-size: 14px;
 }
 
+footer a, footer a:hover {
+  color: #bfbfbf;
+}
+
 // FEED CSS
 
 .feed-wrapper {
@@ -48,6 +52,7 @@ footer h4 {
 .like {
   border-bottom: 1px solid #b3b3b3;
   padding: 10px 10px 7px;
+  height: 55px;
 }
 
 .like a:hover {
@@ -81,14 +86,29 @@ span.grey-heart {
   color: #7f7f7f !important;
 }
 
-.user {
-  padding: 10px 10px 15px;
+.likes-message {
+  line-height: 35px;
+  padding-left: 10px;
 }
 
-.like div, .user div {
+.user {
+  padding: 10px 10px 15px;
+  position: relative;
+}
+
+.like div {
+  float: left;
+  position: relative;
+}
+
+.user div {
   display: inline-block;
 }
 
 .description div {
   display: block;
+}
+
+.description {
+  padding-left: 10px;
 }

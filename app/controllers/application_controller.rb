@@ -12,9 +12,7 @@ class ApplicationController < ActionController::Base
   end
 
   helper_method def liked?(picture)
-    picture.likes.any? do |like| 
-      like.user_id == current_user.id 
-    end
+    picture.user_liked?(current_user)
   end
 
 end
