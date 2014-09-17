@@ -1,40 +1,26 @@
-# Rails Jquery Flinstagram
+# Rails jQuery FlInstagram
 
 ## Description
 
-Add a short description of your app.
+FlInstagram is blowing up! All of the users love the ability to like a photo, but they don't like how it refreshes the page everytime they do so. It's time to add some Ajax to this rails app!
 
-## Screenshots
+## TODO
+1. build basic app
+[]users model(have many pictures)
+  []name
+  []followers
+  []following
+[]pictures(belong to users)
+  []picture
+  []likes
+  []comments?(not yet)
 
-Add some spiffy screenshots of your app here.
+views: timeline
 
-## Background
+objective: show a timeline with 7-10 images. the user should be able to like or unlike a photo. no comments.
 
-Why did you want to make this app? What was your development process
-like?
+does there need to be an admin model?
 
-## Features
+2. create solution branch using jquery and ajax
 
-Bullet point some of the key features of your app here.
-
-## Usage
-
-How do users use your app?
-
-## Development/Contribution
-
-Explain how people can contribute to your app. How should they write tests?
-Any things in particular you'd like to see in pull requests?
-
-## Future
-
-What features are you currently working on? Only mention things that you
-actually are implementing. No pie-in-the-sky-never-gonna-happen stuff.
-
-## Author
-
-Link to your blog, twitter, etc!
-
-## License
-
-Rails Jquery Flinstagram is MIT Licensed. See LICENSE for details.
+notes: no ability to comment yet?

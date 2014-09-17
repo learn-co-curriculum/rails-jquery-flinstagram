@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="feed-wrapper">
+    <% @pictures.each do |picture| %>
+      <div class="image-wrapper">
+        <div class="insta-img">
+          <%= image_tag("#{picture.url}", width: "500") %>
+        </div>
+        <div class="bottom-content">
+          <div class="like">            
+            <%= link_to like_path(id: picture.id), method: :post do %>
+              <div class="like-btn text-center">
+              <% if liked?(picture) %>
+                <span class="glyphicon glyphicon-heart red-heart"></span>
+              <% else %>
+                <span class="glyphicon glyphicon-heart grey-heart"></span>
+              <% end %>
+              </div>
+            <% end %>
+            <div><%= picture.likes.count %> people like this picture</div>
+          </div>
+          <div class="user">
+            <div><%= image_tag("#{picture.user.profile_pic}", width: "50") %></div>
+            <div class="description">
+              <div><%= picture.user.name %></div>
+              <div><%= picture.description %></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <% end %>
+    
+  </div>
+</div>
+

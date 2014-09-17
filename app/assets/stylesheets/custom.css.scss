@@ -1,0 +1,94 @@
+body {
+  background: #f3f3f3 !important;
+}
+
+nav {
+  background: #335ba2 !important;
+  border: none !important;
+  border-radius: 0 !important;
+  margin-bottom: 0 !important;
+  position: fixed !important;
+  width: 100% !important;
+  z-index: 1000 !important;
+}
+
+footer {
+  background: #7f7f7f;
+  margin: 0;
+  padding: 5px;
+  border-top: 2px solid #a6a6a6;
+}
+
+footer h4 {
+  font-weight: 200;
+  color: #bfbfbf;
+  font-size: 14px;
+}
+
+// FEED CSS
+
+.feed-wrapper {
+  width: 550px;
+  background: #e6e6e6;
+  margin: 0 auto;
+  border-left: 2px solid #bfbfbf;
+  border-right: 2px solid #bfbfbf;
+  padding: 75px 0 50px;
+}
+
+.image-wrapper {
+  width: 500px;
+  margin: 0 auto 25px;
+  background: #f3f3f3;
+  border-radius: 5px;
+  border: 1px solid #b3b3b3;
+  overflow: hidden;
+}
+
+.like {
+  border-bottom: 1px solid #b3b3b3;
+  padding: 10px 10px 7px;
+}
+
+.like a:hover {
+  text-decoration: none;
+}
+
+.like-btn {
+  background: #d9d9d9;
+  border-radius: 3px;
+  border: 1px solid #b3b3b3;
+  width: 35px;
+  height: 35px;
+}
+
+.like-btn:hover {
+  background: #cccccc;
+}
+
+.like-btn span {
+  // color: #d8271c;
+  font-size: 24px;
+  line-height: 33px;
+  margin-left: -1px;
+}
+
+span.red-heart {
+  color: #d8271c !important;
+}
+
+span.grey-heart {
+  color: #7f7f7f !important;
+}
+
+.user {
+  padding: 10px 10px 15px;
+}
+
+.like div, .user div {
+  display: inline-block;
+}
+
+.description div {
+  display: block;
+}
