@@ -18,24 +18,24 @@ admin = User.create(name: "You")
 
 # PICTURES
 
-p1 = Picture.create(url: "http://media.tumblr.com/a79ffa1104c7ab99e370c926eb7b42d6/tumblr_inline_nam36seHsG1rtan47.jpg", description: "Ada Lovelace is the best!")
-p2 = Picture.create(url: "http://media.tumblr.com/143a1ad44b56a6230102f356376cddbd/tumblr_inline_napzyh0kLY1rtan47.jpg", description: "#swag #hashtag #oppositeofratchet")
+p1 = Picture.create(url: "http://media.tumblr.com/143a1ad44b56a6230102f356376cddbd/tumblr_inline_napzyh0kLY1rtan47.jpg", description: "#swag #hashtag #oppositeofratchet")
+p2 = Picture.create(url: "http://media.tumblr.com/a79ffa1104c7ab99e370c926eb7b42d6/tumblr_inline_nam36seHsG1rtan47.jpg", description: "Ada Lovelace is the best!")
 p3 = Picture.create(url: "http://media.tumblr.com/745f5912c557883a2d8f9e3e1a65b9c2/tumblr_inline_naq04uTh2M1rtan47.jpg", description: "CONGRATS, RUBY 005 & IOS 002!")
 
 # LIKES
 Like.create(user_id: 3, picture_id: 3)
 Like.create(user_id: 4, picture_id: 3)
 
-Like.create(user_id: 5, picture_id: 2)
-Like.create(user_id: 4, picture_id: 2)
-Like.create(user_id: 1, picture_id: 2)
-
 Like.create(user_id: 5, picture_id: 1)
-Like.create(user_id: 2, picture_id: 1)
-Like.create(user_id: 3, picture_id: 1)
 Like.create(user_id: 4, picture_id: 1)
 Like.create(user_id: 1, picture_id: 1)
 
-katie.pictures << p1
-arel.pictures << p2
+Like.create(user_id: 5, picture_id: 2)
+Like.create(user_id: 2, picture_id: 2)
+Like.create(user_id: 3, picture_id: 2)
+Like.create(user_id: 4, picture_id: 2)
+Like.create(user_id: 1, picture_id: 2)
+
+arel.pictures << p1
+katie.pictures << p2
 mitch.pictures << p3
