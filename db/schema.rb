@@ -11,13 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140916202650) do
-
-  create_table "admins", force: true do |t|
-    t.string   "name",       default: "You"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
+ActiveRecord::Schema.define(version: 20140916202541) do
 
   create_table "likes", force: true do |t|
     t.integer  "user_id"
@@ -30,7 +24,6 @@ ActiveRecord::Schema.define(version: 20140916202650) do
     t.string   "url"
     t.string   "description"
     t.integer  "user_id"
-    t.boolean  "admin_like",  default: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end

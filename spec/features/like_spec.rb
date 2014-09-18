@@ -1,10 +1,10 @@
 require 'spec_helper'
 
-feature "Like an image", :js => true do
+feature "Capybara: Like an image", :js => true do
   before :each do
     mitch = User.create(name: "Mitch")
     admin = User.create(name: "You")
-    p1 = Picture.create(url: "http://media.tumblr.com/a79ffa1104c7ab99e370c926eb7b42d6/tumblr_inline_nam36seHsG1rtan47.jpg")
+    p1 = Picture.create
     mitch.pictures << p1
   end
 
@@ -17,17 +17,17 @@ feature "Like an image", :js => true do
   scenario "user can like an image" do
     visit root_path
     expect(page).to_not have_text("You")
-    page.find("#click-me").click
+    page.find(".like-btn").click
 
     expect(page).to have_text("You")
   end
 end
 
-feature "Unlike an image", :js => true do
+feature "Capybara: Unlike an image", :js => true do
   before :each do
     mitch = User.create(name: "Mitch")
     admin = User.create(name: "You")
-    p1 = Picture.create(url: "http://media.tumblr.com/a79ffa1104c7ab99e370c926eb7b42d6/tumblr_inline_nam36seHsG1rtan47.jpg")
+    p1 = Picture.create
     mitch.pictures << p1
     Like.create(picture_id: p1.id, user_id: admin.id)
   end
@@ -41,7 +41,7 @@ feature "Unlike an image", :js => true do
   scenario "user can unlike an image" do
     visit root_path
     expect(page).to have_text("You")
-    page.find("#click-me").click
+    page.find(".like-btn").click
 
     expect(page).to_not have_text("You")
   end

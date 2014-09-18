@@ -4,7 +4,6 @@ class CreatePictures < ActiveRecord::Migration
       t.string :url
       t.string :description
       t.integer :user_id
-      t.boolean :admin_like, default: false
 
       t.timestamps
     end
