@@ -38,4 +38,4 @@ This lab uses [Capybara](https://github.com/jnicklas/capybara) and the [Selenium
 ## Resources
 
 - [jQuery Documentation - jQuery.ajax()](http://api.jquery.com/jquery.ajax/)
-- a good blog post on jquery / ajax
+- [Learning About Ajax](http://blog.flatironschool.com/post/56146220219/learning-about-ajax)
