@@ -1,4 +1,4 @@
-# Rails jQuery FLInstagram
+# Rails jQuery FLATstagram
 
 ## Description
 
