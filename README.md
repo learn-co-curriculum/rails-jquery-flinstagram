@@ -1,5 +1,5 @@
 ---
-tags: rails, jquery, ajax, jquery
+tags: rails, javascript, ajax, jquery
 languages: ruby, javascript
 resources: 2
 ---
