@@ -1,3 +1,9 @@
+---
+tags: rails, jquery, ajax, jquery
+languages: ruby, javascript
+resources: 2
+---
+
 # Rails jQuery FLATstagram
 
 ## Description
