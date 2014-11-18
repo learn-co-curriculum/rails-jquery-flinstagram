@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'application#index'
+  root 'pictures#index'
   post '/picture/:id/like' => 'pictures#like', as: :like
 
   # Example of regular route:
