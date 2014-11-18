@@ -6,8 +6,4 @@ class ApplicationController < ActionController::Base
     @current_user = User.find_by(name: "You")
   end
 
-  def index
-    @pictures = Picture.all
-  end
-
 end

@@ -4,11 +4,11 @@ languages: ruby, javascript
 resources: 2
 ---
 
-# Rails jQuery FLATstagram
+# Rails jQuery FLInstagram
 
 ## Description
 
-FLATstagram is blowing up! All of the users love the ability to like a photo, but they hate waiting until the page reloads before they can see that beautiful red heart. It's time to add some Ajax to this Rails app!
+FLInstagram is blowing up! All of the users love the ability to like a photo, but they hate waiting until the page reloads before they can see that beautiful red heart. It's time to add some Ajax to this Rails app!
 
 ## Instructions
 
