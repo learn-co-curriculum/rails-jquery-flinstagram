@@ -5,7 +5,7 @@ class CreatePictures < ActiveRecord::Migration
       t.string :description
       t.integer :user_id
 
-      t.timestamps
+      t.timestamps null: false
     end
   end
 end

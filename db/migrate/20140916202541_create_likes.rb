@@ -4,7 +4,7 @@ class CreateLikes < ActiveRecord::Migration
       t.integer :user_id
       t.integer :picture_id
 
-      t.timestamps
+      t.timestamps null: false
     end
   end
 end
