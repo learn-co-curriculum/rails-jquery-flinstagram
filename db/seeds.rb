@@ -9,10 +9,10 @@
 
 # USERS
 
-mitch = User.create(name: "Mitch", profile_pic: "https://avatars2.githubusercontent.com/u/6688401?v=2&s=460")
-arel = User.create(name: "Arel", profile_pic: "https://avatars3.githubusercontent.com/u/1619902?v=2&s=460")
+mitch = User.create(name: "Rose", profile_pic: "https://avatars0.githubusercontent.com/u/8061074?v=3&s=400")
+arel = User.create(name: "Josh", profile_pic: "https://avatars3.githubusercontent.com/u/7979635?v=3&s=400")
 katie = User.create(name: "Katie", profile_pic: "https://avatars1.githubusercontent.com/u/5709920?v=2&s=400")
-amanda = User.create(name: "Amanda", profile_pic: "https://avatars2.githubusercontent.com/u/3723552?v=2&s=400")
+amanda = User.create(name: "Amanda", profile_pic: "https://avatars1.githubusercontent.com/u/8355328?v=3&s=400")
 ian = User.create(name: "Ian", profile_pic: "https://avatars0.githubusercontent.com/u/5270046?v=2&s=460")
 admin = User.create(name: "You")
 
