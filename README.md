@@ -26,7 +26,7 @@ Visit [localhost:3000](http://localhost:3000) to see the current Rails app in ac
 
 ### Your objective
 
-Make the page update in real-time by changing the like button to fire Ajax call. __Hint:__ Select the button and make the Ajax call by using jQuery. Also, remember to update your controller so that it renders JSON!
+Make the page update in real-time by changing the like button to fire an Ajax call. __Hint:__ Select the button and make the Ajax call by using jQuery. Also, remember to update your controller so that it renders JSON!
 
 ### Tools you should use
 
@@ -36,7 +36,7 @@ Make the page update in real-time by changing the like button to fire Ajax call.
 
 ### Testing
 
-This lab uses [Capybara](https://github.com/jnicklas/capybara) and the [SeleniumWebDriver](http://docs.seleniumhq.org/projects/webdriver/). Capybara and Selenium work by driving a web browser (Firefox) and pretending to be a real user. Capybara can click on things and interact with a website just like you or I. It's perfect for testing user interactions (like clicking a "like" button!) They have a few extra requirements, so make sure you complete these steps before running `rspec`:
+This lab uses [Capybara](https://github.com/jnicklas/capybara) and the [SeleniumWebDriver](http://docs.seleniumhq.org/projects/webdriver/). Capybara and Selenium work by driving a web browser (Firefox) and pretending to be a real user. Capybara can click on things and interact with a website just like you or me. It's perfect for testing user interactions (like clicking a "like" button!) They have a few extra requirements, so make sure you complete these steps before running `rspec`:
 
 1. Run `rake db:migrate RAILS_ENV=test` to load up a separate test environment (for Capybara)
 2. Install [Firefox](https://www.mozilla.org/en-US/firefox/new/) if you don't have it (for Selenium)
