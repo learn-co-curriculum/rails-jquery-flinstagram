@@ -1,9 +1,3 @@
----
-tags: rails, javascript, ajax, jquery
-languages: ruby, javascript
-resources: 2
----
-
 # Rails jQuery FLInstagram
 
 ## Description
