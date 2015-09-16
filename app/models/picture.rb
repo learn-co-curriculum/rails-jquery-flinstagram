@@ -9,9 +9,9 @@ class Picture < ActiveRecord::Base
 
   def likes_message(user)
     if user_liked?(user)
-      "<strong>You</strong> and <strong>#{self.likes.count - 1} other people</strong> like this image".html_safe
+      "<strong>You</strong> and <strong>#{likes.count - 1} other people</strong> like this image".html_safe
     else
-      "<strong>#{self.likes.count} people</strong> like this image".html_safe
+      "<strong>#{likes.count} people</strong> like this image".html_safe
     end
   end
 
