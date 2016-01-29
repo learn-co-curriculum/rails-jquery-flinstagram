@@ -40,4 +40,4 @@ This lab uses [Capybara](https://github.com/jnicklas/capybara) and the [Selenium
 - [jQuery Documentation - jQuery.ajax()](http://api.jquery.com/jquery.ajax/)
 - [Learning About Ajax](http://blog.flatironschool.com/post/56146220219/learning-about-ajax)
 
-<a href='https://learn.co/lessons/rails-jquery-flinstagram' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-jquery-flinstagram' title='Rails jQuery FLInstagram'>Rails jQuery FLInstagram</a> on Learn.co and start learning to code for free.</p>
